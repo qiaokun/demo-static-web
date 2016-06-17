@@ -1,0 +1,23 @@
+{
+    "status": 0, 
+    "statusInfo": "", 
+    "data": {
+        "keyword": "", 
+        "total": 2, 
+        "limit": 10, 
+        "rows": [
+            {
+                "id": 1, 
+                "name": "管理员",
+                "status": 1, 
+                "createTime": "2016-05-13 08:47:11"
+            }, 
+            {
+                "id": 2, 
+                "name": "测试", 
+                "status": 1, 
+                "createTime": "2016-05-13 08:55:59"
+            }
+        ]
+    }
+}

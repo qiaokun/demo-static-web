@@ -1,0 +1,28 @@
+[
+    {
+        "id": 31, 
+        "pid": 0, 
+        "url": "user/list", 
+        "text": "用户列表"
+    }, 
+    {
+        "children": [
+            {
+                "id": 33, 
+                "pid": 32, 
+                "url": "user/list", 
+                "text": "用户列表"
+            }, 
+            {
+                "id": 34, 
+                "pid": 32, 
+                "url": "role/list", 
+                "text": "角色列表"
+            }
+        ], 
+        "id": 32, 
+        "pid": 0, 
+        "url": "", 
+        "text": "系统管理"
+    }
+]

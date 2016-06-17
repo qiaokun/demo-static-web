@@ -1,0 +1,83 @@
+* {
+    font-size: 12px;
+    font-family: Tahoma, Verdana, "微 软 雅 黑, 新 宋 体";
+}
+
+html, body {
+    background: #D2E0F2;
+    height: 100%;
+    margin: 0px;
+}
+
+.easyui-tabs {
+    background: #D2E0F2;
+}
+
+.easyui-layout {
+    width: 100%;
+    height: 100%;
+}
+
+.north {
+    overflow: hidden;
+    height: 80px;
+    background: url(../asset/img/layout-browser-hd-bg.gif) #7f99be repeat-x center 50%;
+    line-height: 20px;
+    color: #fff;
+    font-family: Verdana, "微 软 雅 黑, 黑 体";
+}
+
+
+.northDiv1 {
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.northDiv1 img {
+    width: 20px;
+    height: 20px;
+    background: url(../asset/img/blocks.gif) #7f99be repeat-x center 50%;
+}
+
+.northDiv2 {
+    padding-top: 40px;
+}
+
+.headLeft {
+    float: left;
+    padding-left: 20px;
+}
+
+.headRight {
+    float: right;
+    padding-right: 20px;
+}
+
+.headRight a {
+    color: White;
+    text-decoration: underline;
+}
+
+.south {
+    height: 30px;
+    background: #D2E0F2;
+}
+
+.footer {
+    text-align: center;
+    color: #15428B;
+    margin: 0px;
+    padding: 0px;
+    line-height: 23px;
+    font-weight: bold;
+}
+
+.west {
+    width: 180px;
+}
+
+.center {
+    background: #eee;
+    overflow-y: hidden
+}
+

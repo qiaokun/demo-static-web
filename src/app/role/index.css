@@ -1,0 +1,65 @@
+.fix-title,
+.dash-title {
+    color: #03c;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.dash-container {
+    margin: 15px 0;
+}
+.dash-panel {
+    width: 100%;
+    border: 1px dashed #999;
+    background-color: #eee;
+}
+.dash-content {
+    padding: 10px 20px;
+}
+.dash-line {
+    border-top: 1px solid #03c;
+}
+.dash-toggle {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    background: url(/asset/img/icons.png) no-repeat;
+    background-position: -16px 0;
+}
+.clearfix:after {
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    clear: both;
+    content: ' ';
+}
+.clearfix {
+    *display: block;
+    zoom: 1;
+}
+.linegroup {
+    margin-top: 15px;
+}
+.condition-item {
+    float: left;
+    margin: 10px 20px 0 0;
+    min-width: 26%;
+    min-height: 25px;
+    line-height: 1.78571429;
+}
+.condition-item .condition-title {
+    min-width: 108px;
+    display: inline-block;
+    vertical-align: top;
+}
+.condition-item .condition-content {
+    display: inline-block;
+    width: 100px;
+    text-decoration: none;
+    word-break: break-all;
+}
+
+a.cancelAgent {
+    text-decoration: none;
+}

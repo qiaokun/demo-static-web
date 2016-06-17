@@ -1,0 +1,20 @@
+<div>
+    <div class="dash-container">
+        <a href="javascript:;" class="dash-title">角色列表</a>
+        <hr class="dash-line">
+        <div class="dash-panel">
+            <div class="dash-content">
+                <div class="clearfix">
+                    <div class="condition-item">
+                        <span class="condition-title">关键字：</span>
+                        <input v-el:keyword style="width:180px;height:25px;" v-model="search.keyword">
+                    </div>
+                </div>
+                <div class="linegroup">
+                    <a href="javascript:;" class="easyui-linkbutton" style="width:60px" @click="searchList">查询</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <table v-el:list></table>
+</div>
