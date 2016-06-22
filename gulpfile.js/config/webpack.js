@@ -4,40 +4,11 @@
  * @author CK
  */
 
-// var fs             = require('fs');
 var path            = require('path');
 var paths           = require('./');
 var publicPath      = '/js/';
 var WebpackManifest = require('../lib/webpackManifest');
 var webpack         = require('webpack');
-
-// function getEntryPoint() {
-//     var jsSrc = paths.sourceDirectory + '/main.js';
-
-    // var entry = {
-    //   page1: [jsSrc + 'page1.js'],
-    //   page2: [jsSrc + 'page2.js']
-    // };
-    // var files = fs.readdirSync(jsSrc);
-    // var entry = {};
-    // var reg = /index\.js$/;
-
-    // for (var i = 0; i < files.length; i++) {
-    //     var file = files[i];
-    //     if (reg.test(file)) {
-    //         entry[file.replace(reg, '')] = [
-    //             jsSrc + file
-    //         ];
-    //     }
-    // }
-
-    // files.filter(function(file) {
-    //   return reg.test(file);
-    // }).map(function(file){
-    //   entry[file.replace(reg, '')] = [jsSrc + file];
-    // })
-//     return {main: jsSrc};
-// }
 
 module.exports = function (env) {
     var jsDest = paths.publicDirectory + '/js/';
@@ -72,17 +43,10 @@ module.exports = function (env) {
 
         module: {
             loaders: [
-                // {
-                //     test: /\.js$/,
-                //     loader: 'babel-loader?stage=1',
-                //     exclude: /node_modules/
-                //     // exclude: /(node_modules|easyui)/
-                // },
                 {test: /\.html$/, loader: 'html'},
                 {test: /\.css$/, loader: 'style!css?minimize'},
                 {test: /\.less$/, loader: 'style!css!less'},
-                // {test: /\.styl$/, loader: 'style-loader!css-loader!stylus-loader'},
-                {test: /\.(png|jpg|gif)/, loader: 'file-loader?name=../asset/img/[name].[ext]'}
+                {test: /\.(png|jpg|gif)$/, loader: 'file-loader?name=../asset/img/[name].[ext]'}
             ]
         }
 
